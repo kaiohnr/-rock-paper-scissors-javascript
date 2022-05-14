@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container__main-title">
+      <h1>Rock, Paper and Scissors</h1>
+    </div>
+    <div class="container__players-score">
+      <h2>Score</h2>
+      <p class="sentence-result"></p>
+
+      <ul>
+        <li>
+          <div class="container__score">
+            <p class="score-title">Player Score</p>
+            <p class="user-score">0</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="container__score">
+            <p class="score-title">Computer Score</p>
+            <p class="computer-score">0</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container__user-choices">
+      <ul class="list-user-choices">
+        <div class="user-choice">
+          <img class="user-img" src="images/scissors.png" />
+        </div>
+
+        <div class="computer-choice">
+          <img class="computer-img" src="images/scissors.png" />
+        </div>
+      </ul>
+    </div>
+    <div class="container__choices">
+      <ul class="list-choices">
+        <li>
+          <p id="rock-choice">Rock</p>
+        </li>
+        <li>
+          <p id="paper-choice">Paper</p>
+        </li>
+        <li>
+          <p id="scissors-choice">Scissors</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container__restart-game">
+      <button class="restart-btn">RESTART</button>
+    </div>
+    <footer>
+      <div class="container__footer">
+        <ul class="list-socials">
+          <li>
+            <a target="_blank" href=""
+              ><img class="social-img" src="images/github-icon.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href=""
+              ><img class="social-img" src="images/twitter-icon.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
